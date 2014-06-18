@@ -1,17 +1,17 @@
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="common/scroll/perfect-scrollbar.css"/>
 	<link rel="stylesheet" type="text/css" href="static/css/base.css"/>
 	<link rel="stylesheet" type="text/css" href="static/css/index.css"/>
 	<meta charset="utf-8">
 	<script type="text/javascript" src="static/js/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="common/scroll/jquery.mousewheel.js"></script>
-	<script src="common/scroll/perfect-scrollbar.js"></script>
+	<script type="text/javascript" src="static/js/modernizr.custom.js"></script>
 	<script type="text/javascript" src="static/js/header.js"></script>
 	<script type="text/javascript" src="static/js/index.js"></script>
 
 </head>
 <body>
+	<?php include('common/header.php') ?>
 	<?php 
 		if(isset($_GET['action'])){
 			$action = $_GET['action'];
@@ -19,7 +19,7 @@
 			$action = "normal";
 		}
 	?>
-	<header></header>
+<!-- 	<header></header> -->
 	<div class="main">
 		<div>
 			<form class="search-form" action="search.php" method="post">
