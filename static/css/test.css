@@ -1,0 +1,22 @@
+.tabsPanel{
+	width: 240px;
+	height: 640px;
+	background: #555662;
+	float: left;
+}
+	.tab{
+		width: 240px;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+		border
+	}
+	.currentTab{
+		background: #363845;
+	}
+.showPanel{
+	width: 720px;
+	height: 640px;
+	background: white;
+	float: right;
+}

@@ -1,0 +1,91 @@
+.editQuestion-todayMyQuestion{
+  padding: 30px 0 0 0;
+}
+#editQuestion-panel{
+	width: 640px;
+	margin: 30px 0 0 0;
+}
+	.editQuestion-tagpanel{
+		width: 280px;
+	}
+	.editQuestion-defineMyTag{
+		width: 190px;
+		height: 30px;
+	}
+	.editQuestion-defineTag-panel{
+		width: 280px;
+		margin: 200px auto;
+    border-radius: 10px;
+		background: white;
+		position: relative;
+	}
+.editQuestion-form {
+    margin: 0 auto;
+  }
+  .textline{
+    height: 60px;
+    position: relative;
+  }
+  .textinput{
+    width: 232px;
+    height: 38px;
+    border-radius: 4px; 
+    position: absolute;left: 11px;top: 11px;
+  }
+        .editQuestion-form input:-webkit-autofill {
+          box-shadow: 0 0 0px 1000px #f0f0ff inset; 
+      }
+    .editQuestion-form input[type=text]{
+        height: 36px;
+        padding:  0 0 0 36px;
+        background: #f0f0ff;
+        position: absolute;left: 1px;top: 1px;
+        font-size: 16px;
+        border: none;
+        border-radius: 4px; 
+    }
+    .editQuestion-form input[type=text]:focus,.editQuestion-form textarea:focus {
+      box-shadow: 0 0 2px 1px #303e55; 
+    }
+    .editQuestion-form input[type=text]:focus:-webkit-autofill, .editQuestion-form input[type=password]:focus:-webkit-autofill, .editQuestion-form textarea:focus:-webkit-autofill {
+      box-shadow: 0 0 0px 1000px #f0f0ff inset; 
+    }
+    .editQuestion-content{
+      position: fixed;left: 9999em;
+    }
+    .editQuestion-form input[type=checkbox]{
+      display: none;
+    }
+  .buttonline{
+    height: 60px;
+    position: relative;
+  }
+    .buttoninput{
+      width: 232px;
+      height: 34px;
+      position: absolute;left: 13px;top: 13px;
+    }
+  .editQuestion-form input[type=submit],.editQuestion-form input[type=button] {
+      background: #f0f0ff;
+      width: 230px;
+      height: 32px;
+      position: absolute;left: 1px;top: 1px;
+      font-size: 16px;
+      border: none;
+  }
+   .editQuestion-form input[type=submit]:hover,.editQuestion-form input[type=button]:hover{
+    background: #303E55;
+    color: white;
+    cursor: pointer;
+  }
+  .editQuestion-form .error{
+    padding: 5px 20px;
+    color: red;
+  }
+  #editQuestion-tagPanel{
+    width: 640px;
+    min-height: 40px;
+  }
+  .editQuestion-point{
+    width: 150px;
+  }

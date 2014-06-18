@@ -1,0 +1,106 @@
+.tagQuestions-label{
+	padding: 10px 5px;
+	font-size: 20px;
+	border-bottom: solid 1px #303E55;
+}
+.tagQuestions-list{
+	width: 640px;
+	margin-top: 1px;
+	min-height: 500px;
+	padding: 30px 0;
+}
+	.tagQuestions-list a{
+		color: #AAC4EE;
+	}
+	.tagQuestions-listitem{
+		width: 640px;
+		height: 60px;
+		background: #374760;
+		position: relative;
+		color: white;
+		margin: 4px 0 0 0;
+	}
+
+	.tagQuestions-listitem-answercntPanel{
+		width: 60px;
+		height: 60px;
+		position: absolute;left: 0;
+	}
+	.tagQuestions-listitem-praisecntPanel{
+		width: 60px;
+		height: 60px;
+		position: absolute;left: 60px;
+	}
+	.tagQuestions-listitem-degradecntPanel{
+		width: 60px;
+		height: 60px;
+		position: absolute;left: 120px;
+	}
+	.tagQuestions-listitem-answercntPanel:hover{
+		transition: all 1s;
+		cursor: pointer;
+		background: #0000ff;
+	}
+	.tagQuestions-listitem-praisecntPanel:hover{
+		transition: all 1s;
+		cursor: pointer;
+		background: #00eeee;
+	}
+	.tagQuestions-listitem-degradecntPanel:hover{
+		transition: all 1s;
+		cursor: pointer;
+		background: #ff0000;
+	}
+	.tagQuestions-listitem-answerCnt{
+		position: absolute;top: 0;
+		width: 60px;
+		text-align: center;
+		height: 30px;
+		line-height: 30px;
+	}
+	.tagQuestions-listitem-answerLabel{
+		position: absolute;top: 30px;
+		width: 60px;
+		text-align: center;
+		height: 30px;
+		line-height: 30px;
+	}
+	.tagQuestions-listitem-praiseCnt{
+		position: absolute;top: 0;
+		width: 60px;
+		text-align: center;
+		height: 30px;
+		line-height: 30px;
+	}
+	.tagQuestions-listitem-praiseLabel{
+		position: absolute;top: 30px;
+		width: 60px;
+		text-align: center;
+		height: 30px;
+		line-height: 30px;
+	}
+	.tagQuestions-listitem-degradeCnt{
+		position: absolute;top: 0;
+		width: 60px;
+		text-align: center;
+		height: 30px;
+		line-height: 30px;
+	}
+	.tagQuestions-listitem-degradeLabel{
+		position: absolute;top: 30px;
+		width: 60px;
+		text-align: center;
+		height: 30px;
+		line-height: 30px;
+	}
+	.tagQuestions-listitem-title{
+		height: 40px;
+		overflow: hidden;
+		position: absolute;left: 180px;top: 0;
+		padding: 3px;
+	}
+	.tagQuestions-listitem-author{
+		height: 20px;
+		position: absolute;right: 10px;bottom: 0;
+	}
+

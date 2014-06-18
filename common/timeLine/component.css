@@ -1,0 +1,140 @@
+
+
+.cbp_tmtimeline {
+	padding: 0;
+	list-style: none;
+	position: relative;
+} 
+
+/* The line */
+.cbp_tmtimeline:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 10px;
+	background: #afdcf8;
+	left: 20%;
+	margin-left: -10px;
+}
+
+/* The date/time */
+.cbp_tmtimeline li{
+	position: relative;
+}
+.cbp_tmtimeline li .cbp_tmtime {
+	display: block;
+	width: 25%;
+	padding-right: 100px;
+	position: absolute;
+}
+
+.cbp_tmtimeline li .cbp_tmtime span {
+	display: block;
+	padding: 2px 0 2px 15px;
+	color: #bdd0db;
+}
+
+.cbp_tmtimeline li .cbp_tmtime span:first-child {
+	font-size: 14px;
+}
+
+.cbp_tmtimeline li .cbp_tmtime span:last-child {
+	font-size: 18px;
+}
+
+/* Right content */
+.cbp_tmtimeline li .cbp_tmlabel {
+	width: 440px;
+	margin: 0 0 15px 25%;
+	background: #374760;
+	color: #fff;
+	padding: 2em;
+	font-size: 1.2em;
+	font-weight: 300;
+	line-height: 1.4;
+	position: relative;
+	border-radius: 5px;
+}
+.cbp_tmtimeline li .cbp_tmlabel .content{
+	width: 440px;
+	height: auto;
+	padding: 10px 0 10px 0;
+	border-bottom: 1px solid rgba(255,255,255,0.4);
+}
+
+.cbp_tmtimeline li .cbp_tmlabel .title { 
+	text-align: center;
+	margin-top: 0px;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid rgba(255,255,255,0.4);
+}
+.cbp_tmtimeline li .cbp_tmlabel .cnt{
+	padding: 10px 0 0 0;
+}
+.cbp_tmtimeline li .cbp_tmlabel .cnt div{
+	display: inline-block;
+	width: 100px;height: 30px;line-height: 30px;text-align: center;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.cbp_tmtimeline li .cbp_tmlabel .replyCnt:hover{
+	background: #00ff00;
+}
+.cbp_tmtimeline li .cbp_tmlabel .careCnt:hover{
+	background: #ff00ff;
+}
+.cbp_tmtimeline li .cbp_tmlabel .praiseCnt:hover{
+	background: #00eeee;
+}
+.cbp_tmtimeline li .cbp_tmlabel .degradeCnt:hover{
+	background: #ff0000;
+}
+.cbp_tmtimeline li .question-delete{
+	position: absolute;right: 0;top: 0;
+	cursor: pointer;
+	width: 18px;height: 18px;
+	background: url(../../static/image/delete_w.png) no-repeat;
+}
+.question-ID{
+	display: none;
+}
+/* The triangle */
+.cbp_tmtimeline li .cbp_tmlabel:after {
+	right: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-right-color: #374760;
+	border-width: 10px;
+	top: 10px;
+}
+
+
+
+/* The icons */
+.cbp_tmtimeline li .cbp_tmicon {
+	width: 20px;
+	height: 20px;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	font-size: 1.4em;
+	line-height: 40px;
+	-webkit-font-smoothing: antialiased;
+	position: absolute;
+	color: #fff;
+	background: #374760;
+	border-radius: 50%;
+	box-shadow: 0 0 0 8px #afdcf8;
+	text-align: center;
+	left: 125px;
+	top: 6px;
+}
+
+

@@ -1,0 +1,359 @@
+.uploadPortrait-panel{
+	width: 300px;
+	margin: 200px auto;
+	background: #ffffff;
+	border-radius: 10px;
+	box-shadow: 0 0 50px #000000;
+	position: relative;
+}
+.uploadPortrait-form{
+	padding: 20px 30px;
+}
+.uploadPortrait-form input{
+	background: #f0f0ff;
+  	width: 230px;
+  	height: 36px;
+  	font-size: 14px;
+  	border: none;
+  	margin: 10px 0;
+}
+.uploadPortrait-form input:hover{
+	background: #303E55;
+    color: white;
+    cursor: pointer;
+}
+.uploadPortrait-form .large-portrait{
+	padding: 0 65px;
+}
+.personIndex-headPanel{
+	padding: 20px 20px;
+}
+	.personIndex-headPanel .large-portrait{
+		cursor: pointer;
+		display: inline-block;
+	}
+	.personIndex-headPanel-info{
+		display: inline-block;
+		vertical-align: top;
+	}
+	.personIndex-headPanel-info-username{
+		height: 33px;line-height: 33px;font-size: 20px;font-weight: 900;
+	}
+	.personIndex-headPanel-info-registerDate{
+		height: 33px;line-height: 33px;font-size: 20px;font-weight: 900;
+	}
+	.personIndex-headPanel-info-point{
+		height: 33px;line-height: 33px;font-size: 20px;font-weight: 900;
+	}
+.personIndex-mainPanel{
+}
+.personIndex-infoPanel{
+	width: 640px;
+	margin: 0;
+	display: none;
+}
+.personIndex-trendsPanel{
+	width: 700px;
+	margin: 0;
+	display: none;
+}
+	.personIndex-trend{
+		border-bottom: 1px solid #4D607E;
+		padding: 10px 0;
+	}
+	.personIndex-trend-type{
+		color: #D9DDE2;
+		font-size: 12px;
+	}
+	.personIndex-trend-question{
+		background: #374760;
+		width: 640px;
+		margin: 10px auto;
+	}
+	.personIndex-trend-question .title{
+		padding: 5px 10px;
+		border-bottom: 1px solid #4D5E78;
+	}
+	.personIndex-trend-question-content{
+		min-height: 50px;
+		padding: 5px 10px;
+		color: #D9DDE2;
+	}
+	.personIndex-trend-question a{
+		color: #AAC4EE;
+	}
+	.personIndex-trend-date{
+		color: #D9DDE2;
+		font-size: 12px;
+	}
+.personIndex-questionsPanel{
+	width: 700px;
+	margin: 0;
+	display: none;
+}
+.personIndex-questionsPanel a{
+	color: #AAC4EE;
+}
+.personIndex-careQuestionsPanel{
+	width: 700px;
+	margin: 0;
+	display: none;
+}
+.personIndex-careQuestions-list{
+	width: 700px;
+}
+	.personIndex-careQuestions-list a{
+		color: #AAC4EE;
+	}
+	.personIndex-careQuestions-listitem{
+		width: 700px;
+		height: 60px;
+		background: #374760;
+		position: relative;
+		color: white;
+	}
+
+	.personIndex-careQuestions-listitem-answercntPanel{
+		width: 60px;
+		height: 60px;
+		position: absolute;left: 0;
+	}
+	.personIndex-careQuestions-listitem-carecntPanel{
+		width: 60px;
+		height: 60px;
+		position: absolute;left: 60px;
+	}
+	.personIndex-careQuestions-listitem-praisecntPanel{
+		width: 60px;
+		height: 60px;
+		position: absolute;left: 120px;
+	}
+	.personIndex-careQuestions-listitem-degradecntPanel{
+		width: 60px;
+		height: 60px;
+		position: absolute;left: 180px;
+	}
+	.personIndex-careQuestions-listitem-answercntPanel:hover{
+		transition: all 0.5s;
+		cursor: pointer;
+		background: #00ff00;
+	}	
+	.personIndex-careQuestions-listitem-carecntPanel:hover{
+		transition: all 0.5s;
+		cursor: pointer;
+		background: #ff00ff;
+	}
+	.personIndex-careQuestions-listitem-praisecntPanel:hover{
+		transition: all 0.5s;
+		cursor: pointer;
+		background: #00eeee;
+	}
+	.personIndex-careQuestions-listitem-degradecntPanel:hover{
+		transition: all 0.5s;
+		cursor: pointer;
+		background: #ff0000;
+	}
+	.personIndex-careQuestions-listitem-answerCnt{
+		position: absolute;top: 0;
+		width: 60px;
+		text-align: center;
+		height: 30px;
+		line-height: 30px;
+	}
+	.personIndex-careQuestions-listitem-answerLabel{
+		position: absolute;top: 30px;
+		width: 60px;
+		text-align: center;
+		height: 30px;
+		line-height: 30px;
+	}
+	.personIndex-careQuestions-listitem-careCnt{
+		position: absolute;top: 0;
+		width: 60px;
+		text-align: center;
+		height: 30px;
+		line-height: 30px;
+	}
+	.personIndex-careQuestions-listitem-careLabel{
+		position: absolute;top: 30px;
+		width: 60px;
+		text-align: center;
+		height: 30px;
+		line-height: 30px;
+	}
+	.personIndex-careQuestions-listitem-praiseCnt{
+		position: absolute;top: 0;
+		width: 60px;
+		text-align: center;
+		height: 30px;
+		line-height: 30px;
+	}
+	.personIndex-careQuestions-listitem-praiseLabel{
+		position: absolute;top: 30px;
+		width: 60px;
+		text-align: center;
+		height: 30px;
+		line-height: 30px;
+	}
+	.personIndex-careQuestions-listitem-degradeCnt{
+		position: absolute;top: 0;
+		width: 60px;
+		text-align: center;
+		height: 30px;
+		line-height: 30px;
+	}
+	.personIndex-careQuestions-listitem-degradeLabel{
+		position: absolute;top: 30px;
+		width: 60px;
+		text-align: center;
+		height: 30px;
+		line-height: 30px;
+	}
+	.personIndex-careQuestions-listitem-title{
+		height: 40px;
+		overflow: hidden;
+		position: absolute;left: 240px;top: 0;
+		padding: 3px;
+	}
+	.personIndex-careQuestions-listitem-author{
+		height: 20px;
+		position: absolute;right: 10px;bottom: 0;
+	}
+.personIndex-messageBoard{
+	width: 700px;
+	margin: 0;
+	display: none;
+}
+	.personIndex-messageBoard-formLabel{
+		color: #D9DDE2;
+		padding: 10px;
+		border-bottom: 1px solid #4D607E;
+	}
+	.personIndex-messageBoard-form{
+		width: 640px;
+		padding: 30px;
+	}
+	.personIndex-messageBoard-form textarea{
+		width: 640px;
+		height: 60px;
+		resize: none;
+	}
+	.personIndex-messageBoard-form input{
+		margin: 10px 0;
+		border: none;
+		width: 200px;
+		height: 30px;
+		background: #5F6F8A;
+		color: #D9DDE2;
+	}
+	.personIndex-messageBoard-messageLabel{
+		color: #D9DDE2;
+		padding: 10px;
+		border-bottom: 1px solid #4D607E;
+	}
+	.personIndex-messageBoard-message{
+		border-bottom: 1px solid #4D607E;
+	}
+	.personIndex-messageBoard-message-portrait{
+		width: 50px;
+		height: 50px;
+		padding: 15px;
+		display: inline-block;
+		cursor: pointer;
+	}
+	.personIndex-messageBoard-message-username{
+	}
+	.personIndex-messageBoard-message-info{
+		width: 600px;
+		vertical-align: top;
+		display: inline-block;
+	}
+
+	.personIndex-messageBoard-message-info .floor{
+		color: #95A0B2;
+		padding: 5px 10px;
+		display: inline-block;
+	}
+	.personIndex-messageBoard-message-info .content{
+		border: none;
+		width: 600px;
+		min-height: 90px;
+		color: #D9DDE2;
+		padding: 5px 10px;
+		display: inline-block;
+	}
+	.personIndex-messageBoard-message-info .date{
+		color: #D9DDE2;
+		padding: 5px 10px;
+		display: inline-block;
+	}
+	.personIndex-messageBoard-message-info input[type=button]{
+		float: right;
+		padding: 5px 5px;
+		border: none;
+		background: none;
+		cursor: pointer;
+		font-size: 12px;
+		color: #D9DDE2;
+	}
+.currentPanel{
+	display:block;
+	margin: auto;
+}
+
+.userInfo-form{
+	width: 640px;
+	margin: auto;
+	min-height: 560px;
+}
+.userInfo-form .label{
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: left;
+	display: inline-block;
+	color: #D9DDE2;
+}
+.userInfo-form-label{
+	width: 640px;
+	padding: 2px;
+	border-bottom: 1px solid #4D607E;
+	text-align: left;
+	color: #D9DDE2;
+	padding: 5px 0;
+}
+.userInfo-form-label input{
+	float: right;
+	margin: 0 2px;
+}
+.userInfo-form input[type=text],.userInfo-form input[type=password]{
+	width: 296px;
+	height: 36px;
+	border: none;
+	padding: 2px 5px;
+}
+.input-uneditable{
+	background: none;
+	color: #D9DDE2;
+}
+.input-editable{
+	border-radius: 2px; 
+	background: #D9DDE2;
+	color: black;
+}
+.userInfo-form input[type=button],.userInfo-form input[type=submit]{
+	border: none;
+	background: none;
+	color: #D9DDE2;
+}
+.userInfo-form input[type=button]:hover,.userInfo-form input[type=submit]:hover{
+	cursor: pointer;
+	color: white;
+}
+.userInfo-form input:focus{
+	box-shadow: 0 0 3px 1px #303E55;
+}
+.error{
+	padding: 2px 5px;
+	color: red;
+}

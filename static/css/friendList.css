@@ -1,0 +1,11 @@
+.friendPanel{
+	position: fixed;right: 0;top: 30px;
+	width: 240px;
+	height: auto;
+	min-height: 640px;
+}
+	.friendItem{
+		width: 200px;
+		height: 40px;
+		padding: 2px 20px;
+	}

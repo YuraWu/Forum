@@ -1,0 +1,152 @@
+
+.search-searchInfoLabel{
+	font-size: 16px;
+	border-bottom: solid 1px #EAEAEA;
+	margin: 30px 10px 0 0;
+	padding: 0 0 20px 0;
+}
+
+.search-questionPanel{
+	width: 700px;
+	margin: 0;
+	display: none;
+}
+	.search-question-list{
+		width: 700px;
+	}
+	.search-question-list a{
+		color: #AAC4EE;
+	}
+	.search-question-listitem{
+		width: 700px;
+		height: 60px;
+		background: #374760;
+		position: relative;
+		color: white;
+		margin: 5px 0;
+	}
+
+	.search-question-listitem-answercntPanel{
+		width: 60px;
+		height: 60px;
+		position: absolute;left: 0;
+	}
+	.search-question-listitem-carecntPanel{
+		width: 60px;
+		height: 60px;
+		position: absolute;left: 60px;
+	}
+	.search-question-listitem-praisecntPanel{
+		width: 60px;
+		height: 60px;
+		position: absolute;left: 120px;
+	}
+	.search-question-listitem-degradecntPanel{
+		width: 60px;
+		height: 60px;
+		position: absolute;left: 180px;
+	}
+	.search-question-listitem-answercntPanel:hover{
+		transition: all 1s;
+		cursor: pointer;
+		background: #00ff00;
+	}
+	.search-question-listitem-carecntPanel:hover{
+		transition: all 1s;
+		cursor: pointer;
+		background: #ff00ff;
+	}
+	.search-question-listitem-praisecntPanel:hover{
+		transition: all 1s;
+		cursor: pointer;
+		background: #00eeee;
+	}
+	.search-question-listitem-degradecntPanel:hover{
+		transition: all 1s;
+		cursor: pointer;
+		background: #ff0000;
+	}
+	.search-question-listitem-answerCnt{
+		position: absolute;top: 0;
+		width: 60px;
+		text-align: center;
+		height: 30px;
+		line-height: 30px;
+	}
+	.search-question-listitem-answerLabel{
+		position: absolute;top: 30px;
+		width: 60px;
+		text-align: center;
+		height: 30px;
+		line-height: 30px;
+	}
+	.search-question-listitem-careCnt{
+		position: absolute;top: 0;
+		width: 60px;
+		text-align: center;
+		height: 30px;
+		line-height: 30px;
+	}
+	.search-question-listitem-careLabel{
+		position: absolute;top: 30px;
+		width: 60px;
+		text-align: center;
+		height: 30px;
+		line-height: 30px;
+	}
+	.search-question-listitem-praiseCnt{
+		position: absolute;top: 0;
+		width: 60px;
+		text-align: center;
+		height: 30px;
+		line-height: 30px;
+	}
+	.search-question-listitem-praiseLabel{
+		position: absolute;top: 30px;
+		width: 60px;
+		text-align: center;
+		height: 30px;
+		line-height: 30px;
+	}
+	.search-question-listitem-degradeCnt{
+		position: absolute;top: 0;
+		width: 60px;
+		text-align: center;
+		height: 30px;
+		line-height: 30px;
+	}
+	.search-question-listitem-degradeLabel{
+		position: absolute;top: 30px;
+		width: 60px;
+		text-align: center;
+		height: 30px;
+		line-height: 30px;
+	}
+	.search-question-listitem-title{
+		height: 40px;
+		overflow: hidden;
+		position: absolute;left: 240px;top: 0;
+		padding: 3px;
+	}
+	.search-question-listitem-author{
+		height: 20px;
+		position: absolute;right: 10px;bottom: 0;
+	}
+.search-userPanel{
+	display: none;
+	padding: 10px 20px;
+}
+	.search-user{
+		display: inline-block;
+		width: 50px;
+		padding: 20px 20px;
+		text-align: center;
+	}
+.search-tagPanel{
+	display: none;
+	padding: 10px 20px;
+}
+.currentPanel{
+	display: block;
+	margin: auto;
+}

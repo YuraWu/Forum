@@ -1,0 +1,330 @@
+body{
+	font-family: "SimSun","Microsoft YaHei";
+}
+img{
+	max-width: 100%;
+	max-height: 100%;
+}
+.main{
+	padding: 120px 0 0 0;
+	height: 720px;
+	background: url("../image/background_1.png") no-repeat;
+}
+.search-form{
+	position: absolute;left: 840px;top: 25px;
+}
+	.content{
+		position: absolute;left: 0;
+		width: 500px;
+		height: 60px;
+		padding: 0 0 0 60px;
+		border: none;
+		border-radius: 20px;
+		font-size: 16px;
+	}
+	.submit{
+		position: absolute;left: 4px;top:4px;
+		border: none;
+		text-indent: -9999em;
+		background: url("../image/search.png");
+		width: 51px;
+		height: 51px;
+	}
+
+.tabsPanel{
+  	width: 840px;
+  	border-bottom: solid 1px #303e55;
+  	margin: 0 auto;
+}
+.tab{
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+}
+.tab:hover{
+    cursor: pointer;
+}
+.currentTab{
+    color: white;
+    background: #3E516D;
+}
+.showPanel{
+	width: 840px;
+	height: 640px;
+	position: relative;
+	overflow: hidden;
+	/*background: url(../image/panel_2.png) no-repeat;*/
+  background: white no-repeat;
+	margin: 0 auto;
+}
+	.index-hotQuestionsList{
+		width: 840px;
+		height: 640px;
+		margin: 0;
+		font-size: 14px;
+		display: none;
+	}
+		.index-questionItem{
+			width: 390px;
+			height: 280px;
+			margin: 20px 0 0 15px;
+			background: #374760;
+			display: inline-block;
+			vertical-align:top;
+			position: relative;
+		}
+		.index-questionItem a{
+			color: #AAC4EE;
+			text-decoration: none;
+		}
+		.index-questionItem-title{
+			width: 370px;
+			padding: 10px 20px 0;
+			max-height: 32px;
+			overflow: hidden;
+		}
+		.index-questionItem-tag{
+			width: 370px;
+			height: 20px;
+			padding: 10px 20px 0;
+		}
+			.tag{
+			    min-width: 30px;
+			    max-width: 100px;
+			    height: 20px;
+			    line-height: 20px;
+			    text-align: center;
+			    border: none;
+			    background: #888888;
+			    color: #EEEEEE;
+			    display: inline-block;
+			    cursor: pointer;
+			}
+		  .index-questionItem-date{
+    		width: 370px;
+    		padding: 10px 20px 0;
+    		height: 20px;
+    		line-height: 20px;
+	  		font-size: 12px;
+        color: #D9DDE2;
+	  	}
+	  	.index-questionItem-content{
+	  		width: 370px;
+	  		height: 140px;
+	  		padding: 10px 20px 0;
+	  		overflow: hidden;
+        color: #D9DDE2;
+	  	}
+	  	.index-questionItem-evaluate{
+	  		width: 370px;
+	  		height: 20px;
+	  		padding: 10px 20px 0;
+	  		line-height: 20px;
+	  	}
+	  	.index-questionItem-evaluate input{
+	  		border:none;
+        background: none;
+	  		cursor: pointer;
+        color: #D9DDE2;
+	  	}
+.index-newQuestionsList{
+	width: 900px;
+	height: 640px;
+	margin: 0;
+	font-size: 14px;
+	display: none;
+}
+.index-loginRegisterPanel{
+	display: none;
+}
+.index-userPanel{
+  text-align: center;
+  padding: 200px 0;
+}
+  .index-userPanel a{
+    text-align: center;
+    padding: 200px 0;
+    color:#3E516D;
+  }
+  .info-form {
+    margin: 0 auto;
+  }
+  .textline{
+    height: 60px;
+    position: relative;
+  }
+  .textinput{
+    width: 232px;
+    height: 38px;
+    border-radius: 4px; 
+    position: absolute;left: 11px;top: 11px;
+  }
+    .info-form .error{
+      position: absolute;left: 200px;top: -14px;
+      background: #E74C3C;
+      border-radius: 4px;
+      height: 20px;
+      line-height: 20px;
+      display: none;
+      color: #ffffff;
+      padding: 0 0.2em;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    .info-form .error-arrow{
+    	position: absolute;left: 10px;top: 20px;
+    	overflow:hidden;
+		width:0;
+		height:0;
+		border-left:6px dotted transparent;
+		border-right:6px dotted transparent;
+		border-top:6px solid transparent;
+		border-top-color:#E74C3C;
+    }
+    .info-form .error-arrow1{
+    	position: absolute;left: -6px;top: 4px;
+    	overflow:hidden;
+		width:0;
+		height:0;
+		border-top:6px dotted transparent;
+		border-bottom:6px dotted transparent;
+		border-right:6px solid transparent;
+		border-right-color:#E74C3C;
+    }
+    .info-form .error_show{
+      position: absolute;left: 220px;top: -14px;
+      background: #303E55;
+      border-radius: 4px;
+      height: 20px;
+      line-height: 20px;
+      display: none;
+      color: #ffffff;
+      cursor: pointer;
+    }
+      .info-form input:-webkit-autofill {
+        box-shadow: 0 0 0px 1000px #f0f0ff inset; 
+      }
+    .info-form input[type=text], .info-form input[type=password] {
+      width: 230px;
+      height: 36px;
+      padding:  0 0 0 36px;
+      background: #f0f0ff;
+      position: absolute;left: 1px;top: 1px;
+      font-size: 12px;
+    }
+    .info-form input[type=text]:focus:-webkit-autofill, .info-form input[type=password]:focus:-webkit-autofill, .info-form textarea:focus:-webkit-autofill {
+      box-shadow: 0 0 0px 1000px #f0f0ff inset; 
+    }
+  .buttonline{
+    height: 60px;
+    position: relative;
+  }
+    .buttoninput{
+      width: 232px;
+      height: 38px;
+      position: absolute;left: 11px;top: 11px;
+    }
+  .info-form input[type=submit], .info-form input[type=file], .info-form input[type=button] {
+      background: #f0f0ff;
+      width: 230px;
+      height: 36px;
+      position: absolute;left: 1px;top: 1px;
+      font-size: 14px;
+      border: none;
+  }
+   .info-form input[type=submit]:hover,.info-form input[type=button]:hover{
+    background: #303E55;
+    color: white;
+    cursor: pointer;
+  }
+  .inactive-input{
+    border:1px solid #DCE4EC;
+    border-radius: 6px;
+  }
+    .inactive-input:focus {
+      box-shadow: 0 0 2px 1px #303e55; 
+    }
+  .error-input{
+    color: #E74C3C;
+    border: 1px solid #E74C3C;
+    border-radius: 6px;
+  }
+  .success-input{
+    color: #2ecc71;
+    border: 1px solid #2ecc71;
+    border-radius: 6px;
+  }
+  .disabled-input{
+  }
+  .username-logo{
+    width: 18px;
+    height: 18px;
+    position: absolute;left: 9px;top:9px;z-index: 6;
+    background: url("../image/username_g.png") no-repeat center;
+  }
+  .password-logo{
+    width: 18px;
+    height: 18px;
+    position: absolute;left: 9px;top:9px;z-index: 6;
+    background: url("../image/password_g.png") no-repeat center;
+  }
+  .email-logo{
+    width: 18px;
+    height: 18px;
+    position: absolute;left: 9px;top:9px;z-index: 6;
+    background: url("../image/email_g.png") no-repeat center;
+  }
+  .telephone-logo{
+    width: 18px;
+    height: 18px;
+    position: absolute;left: 9px;top:9px;z-index: 6;
+    background: url("../image/tele_g.png") no-repeat center;
+  }
+  .male-logo{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background: url("../image/male_g.png") no-repeat center;
+  }
+  .female-logo{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background: url("../image/female_g.png") no-repeat center;
+  }
+  .point-logo{
+    width: 18px;
+    height: 18px;
+    position: absolute;left: 9px;top: 9px;z-index: 6;
+    background: url("../image/point.png") no-repeat center;
+  }
+.loginForm{
+	width: 325px;
+	margin: 150px 0;
+	padding: 0 0 0 75px;
+	display: inline-block;
+	vertical-align: top;
+}
+  .login-label{
+    width: 250px;
+    height: 60px;
+    background: url(../image/loginLabel.png) no-repeat ;
+  }
+.registerForm{
+	width: 325px;
+	margin: 120px 0;
+	padding: 0 0 0 75px;
+	display: inline-block;
+	vertical-align: top;
+	border-left: solid 1px #303e55;
+}
+	.register-label{
+    width: 250px;
+    height: 60px;
+    background: url(../image/registerLabel.png) no-repeat ;
+  }
+.currentList{
+	display: block;
+}
