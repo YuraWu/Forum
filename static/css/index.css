@@ -1,39 +1,59 @@
 body{
 	font-family: "SimSun","Microsoft YaHei";
 }
+
+* {
+  -moz-transition: all 0.25s ;
+  -o-transition: all 0.25s ;
+  -webkit-transition: all 0.25s ;
+  transition: all 0.25s ;
+}
+/*
 img{
 	max-width: 100%;
 	max-height: 100%;
 }
+*/
 .main{
+	width: 840px;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 120px 0 0 0;
 	height: 720px;
-	background: url("../image/background_1.png") no-repeat;
 }
 .search-form{
-	position: absolute;left: 840px;top: 25px;
+	width: 700px;
+	margin-left: auto;
+	margin-bottom: 50px;
 }
 	.content{
-		position: absolute;left: 0;
-		width: 500px;
-		height: 60px;
-		padding: 0 0 0 60px;
-		border: none;
-		border-radius: 20px;
+		color: #888;
+		margin-left: auto;
+		width: 450px;
+		height: 40px;
+		border: 1px solid #ff4a56;
+		border-radius: 10px;
 		font-size: 16px;
 	}
 	.submit{
-		position: absolute;left: 4px;top:4px;
-		border: none;
-		text-indent: -9999em;
-		background: url("../image/search.png");
-		width: 51px;
-		height: 51px;
+		margin-left: auto;
+		width: 100px;
+		height: 40px;
+		font-size: 20px;
+		
+		border: 1px solid #ff4a56;
+		color: #ff4a56;
+		background-color: white;
+		outline: none;
+	}
+	.submit:hover{
+		color: white;
+		background-color: #ff4a56;
+
 	}
 
 .tabsPanel{
-  	width: 840px;
-  	border-bottom: solid 1px #303e55;
+  	border-bottom: solid 1px #ff4a56;
   	margin: 0 auto;
 }
 .tab{
@@ -48,16 +68,12 @@ img{
 }
 .currentTab{
     color: white;
-    background: #3E516D;
+    background: #ff4a56;
 }
 .showPanel{
-	width: 840px;
-	height: 640px;
 	position: relative;
-	overflow: hidden;
-	/*background: url(../image/panel_2.png) no-repeat;*/
-  background: white no-repeat;
 	margin: 0 auto;
+	
 }
 	.index-hotQuestionsList{
 		width: 840px;
@@ -70,16 +86,17 @@ img{
 			width: 390px;
 			height: 280px;
 			margin: 20px 0 0 15px;
-			background: #374760;
+			background: #EEE;
 			display: inline-block;
 			vertical-align:top;
 			position: relative;
 		}
 		.index-questionItem a{
-			color: #AAC4EE;
+			color: #333;
 			text-decoration: none;
 		}
 		.index-questionItem-title{
+			font-size: 20px;
 			width: 370px;
 			padding: 10px 20px 0;
 			max-height: 32px;
@@ -115,7 +132,7 @@ img{
 	  		height: 140px;
 	  		padding: 10px 20px 0;
 	  		overflow: hidden;
-        color: #D9DDE2;
+        color: #d9dde3;
 	  	}
 	  	.index-questionItem-evaluate{
 	  		width: 370px;
@@ -146,7 +163,7 @@ img{
   .index-userPanel a{
     text-align: center;
     padding: 200px 0;
-    color:#3E516D;
+    color:#ff4a56;
   }
   .info-form {
     margin: 0 auto;

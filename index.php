@@ -9,11 +9,7 @@
 	<script src="common/scroll/perfect-scrollbar.js"></script>
 	<script type="text/javascript" src="static/js/header.js"></script>
 	<script type="text/javascript" src="static/js/index.js"></script>
-	<script>
-	$(function(){
-		$(".showpanel").perfectScrollbar();
-	});
-	</script>
+
 </head>
 <body>
 	<?php 
