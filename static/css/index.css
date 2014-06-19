@@ -23,6 +23,7 @@ img{
 }
 .search-form{
 	width: 700px;
+	margin-top: 100px;
 	margin-left: auto;
 	margin-bottom: 50px;
 }
@@ -34,8 +35,9 @@ img{
 		border: 1px solid #ff4a56;
 		border-radius: 10px;
 		font-size: 16px;
+		outline-style: none;
 	}
-	.submit{
+	.submit,#ask-btn{
 		margin-left: auto;
 		width: 100px;
 		height: 40px;
@@ -46,10 +48,9 @@ img{
 		background-color: white;
 		outline: none;
 	}
-	.submit:hover{
+	.submit:hover, #ask-btn:hover{
 		color: white;
 		background-color: #ff4a56;
-
 	}
 
 .tabsPanel{
@@ -77,10 +78,9 @@ img{
 }
 	.index-hotQuestionsList{
 		width: 840px;
-		height: 640px;
-		margin: 0;
 		font-size: 14px;
-		display: none;
+		display: block;
+		padding-bottom: 200px;
 	}
 		.index-questionItem{
 			width: 390px;
@@ -92,15 +92,15 @@ img{
 			position: relative;
 		}
 		.index-questionItem a{
-			color: #333;
 			text-decoration: none;
 		}
 		.index-questionItem-title{
-			font-size: 20px;
+			color: #333;
+			font-size: 17px;
 			width: 370px;
 			padding: 10px 20px 0;
-			max-height: 32px;
-			overflow: hidden;
+			max-height: 100px;
+			overflow: auto;
 		}
 		.index-questionItem-tag{
 			width: 370px;

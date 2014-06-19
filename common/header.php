@@ -20,7 +20,7 @@
 				<a href="index.php?action=account">注册</a>
 			</div>
 		<?php } else { ?>
-			<div id="user-info">
+				<div id="user-info">
 				<div><?php echo $_SESSION['username'] ?></div>
 				<div id="user-menu">
 					<div class="user-item"><a href="personIndex.php?ID=<?php echo $_SESSION['user_id']; ?>">个人中心</a></div>

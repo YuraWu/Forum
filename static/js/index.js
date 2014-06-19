@@ -7,7 +7,7 @@ var logout = function(){
 var initTab = function(){
 	$(".tab").click(function(){
 		$(".showpanel").scrollTop(0);
-		$(".showpanel").perfectScrollbar('update');
+		// $(".showpanel").perfectScrollbar('update');
 		$(".currentTab").removeClass("currentTab");
 		$(this).addClass("currentTab");
 		var showPanel = $(this).attr("linkPanel");

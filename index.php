@@ -2,16 +2,16 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="static/css/base.css"/>
 	<link rel="stylesheet" type="text/css" href="static/css/index.css"/>
+	<link rel="stylesheet" type="text/css" href="static/css/header.css"/>
 	<meta charset="utf-8">
 	<script type="text/javascript" src="static/js/jquery-1.9.1.min.js"></script>
-	<script type="text/javascript" src="common/scroll/jquery.mousewheel.js"></script>
 	<script type="text/javascript" src="static/js/modernizr.custom.js"></script>
 	<script type="text/javascript" src="static/js/header.js"></script>
 	<script type="text/javascript" src="static/js/index.js"></script>
 
 </head>
 <body>
-	<?php include('common/header.php') ?>
+<!-- 	<?php include('common/header.php') ?> -->
 	<?php 
 		if(isset($_GET['action'])){
 			$action = $_GET['action'];
@@ -19,12 +19,14 @@
 			$action = "normal";
 		}
 	?>
-<!-- 	<header></header> -->
+	<?php include('common/header.php') ?>
 	<div class="main">
 		<div>
 			<form class="search-form" action="search.php" method="post">
-				<input class="content" type="text" name="content" placeholder="搜一搜">
+				<input class="content" type="text" name="content" placeholder="通过关键字搜索问题">
 				<input class="submit" type="submit" name="submit" value="搜索">
+<!-- 	还没有增加它的响应			 -->
+				<input type="button" href="editQuestion.php" id="ask-btn" value="提问">
 			</form>
 		</div>
 		<div class="tabsPanel">

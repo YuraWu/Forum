@@ -5,6 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="static/css/common.css"/>
 	<link rel="stylesheet" type="text/css" href="static/css/personIndex.css"/>
 	<link rel="stylesheet" type="text/css" href="common/timeLine/component.css" />
+	
 	<script type="text/javascript" src="static/js/modernizr.custom.js"></script>
 	<script type="text/javascript" src="static/js/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="static/js/header.js"></script>

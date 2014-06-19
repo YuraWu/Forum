@@ -1,0 +1,314 @@
+
+header{
+  height: 41px;
+  background: white;
+  width: 100%;
+   position: fixed;left: 0;top: 0;z-index: 8999;
+
+  background-image: url("../image/header-back.jpg");
+}
+  header nav{
+    width: 300px;
+    height: 41;
+    line-height: 41px;
+    display: inline-block;
+    float: left;
+  }
+  header nav a{
+    font-size: 18px;
+    height: 38px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 900;
+  }
+  header nav a:hover{
+	  text-decoration: none;
+	  border-bottom: 4px solid #ff4a56;
+  }
+  header a{
+      line-height: 30px;
+      font-size: 12px;
+      color: white;
+  }
+  header a:hover{
+	  text-decoration: underline;
+  }
+  .header-main{
+    width: 960px;
+    margin: 0 auto;
+  }
+  #logo-Panel{
+    width: 165px;
+    height: 30px;
+    display: inline-block;
+    float: left;
+  }
+    #logo-image{
+      width: 98px;height: 30px;
+      background: url("../image/logo_w.png") no-repeat;
+    }
+  #user-info{
+      width: 100px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      color: white;
+      margin-left: 20px;
+      display: inline-block;
+      float: right;
+    }
+    #user-menu{
+      width: 100px;
+      display: none;
+    }
+      .user-item{
+        width: 100px;
+        height: 30px;
+        background: #303E55;
+      }
+      .user-item a:hover{
+        cursor: pointer;
+      }
+  .loginBox-panel{
+    width: 270px;
+    padding: 0 5px 10px 5px;
+    margin: 200px auto;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 50px #000000;
+    position: relative;
+  }
+    .loginBox-label{
+      width: 250px;
+      height: 60px;
+      background: url(../image/loginLabel.png) no-repeat ;
+    }
+    .loginBox-form{
+      width: 260px;
+    }
+    .loginBox-error{
+      height: 20px;
+      line-height: 20px;
+      padding: 0 0 0 30px;
+      display: none;
+      color: red;
+    }
+    .loginBox-toRegister{
+      text-decoration: none;
+      padding: 10px 20px;
+      text-align: center;
+    }
+    .loginBox-toRegister a{
+      color: black;
+    }
+  #search {
+    width: 180px;
+    height: 30px;
+    display: inline-block;
+    float: right;
+  }
+    #search-text {
+      outline: 0 none;
+      width: 142px;
+      background: #fff;
+      margin: 0;
+      font-size: 12px;
+      height: 22px;
+      border: 0px;
+      margin-top: 4px; 
+      float: left;
+      border-radius: 10px 0 0 10px;
+      padding: 4px 4px 4px 8px;
+      -padding: 3px 4px 5px 6px; 
+    }
+    #search-submit {
+      background: url("../image/fangdajing.png") no-repeat center white;
+      text-indent: -9999em;
+      border: 0;
+      margin-top: 4px; 
+      float: left;
+      width: 21px;
+      height: 22px;
+      cursor: pointer;
+      border-radius: 0 10px 10px 0;
+      margin-right: 5px; 
+    }
+.main{
+  margin: 0 auto;
+  padding: 30px 0;
+  width: 960px;
+}
+  .info-form {
+    margin: 0 auto;
+  }
+  .textline{
+    height: 60px;
+    position: relative;
+  }
+  .textinput{
+    width: 232px;
+    height: 38px;
+    border-radius: 4px; 
+    position: absolute;left: 11px;top: 11px;
+  }
+    .info-form .error{
+      position: absolute;left: 250px;top: 13px;
+      height: 36px;
+      line-height: 36px;
+      display: none;
+      color: red;
+    }
+    .info-form .error_show{
+      position: absolute;left: 250px;top: 13px;
+      height: 32px;
+      line-height: 32px;
+      color: red;
+    }
+      .info-form input:-webkit-autofill {
+        box-shadow: 0 0 0px 1000px #f0f0ff inset; 
+      }
+    .info-form input[type=text], .info-form input[type=password] {
+      width: 230px;
+      height: 36px;
+      padding:  0 0 0 36px;
+      background: #f0f0ff;
+      position: absolute;left: 1px;top: 1px;
+      font-size: 12px;
+    }
+    .info-form input[type=text]:focus:-webkit-autofill, .info-form input[type=password]:focus:-webkit-autofill, .info-form textarea:focus:-webkit-autofill {
+      box-shadow: 0 0 0px 1000px #f0f0ff inset; 
+    }
+  .buttonline{
+    height: 60px;
+    position: relative;
+  }
+    .buttoninput{
+      width: 232px;
+      height: 38px;
+      position: absolute;left: 11px;top: 11px;
+    }
+  .info-form input[type=submit], .info-form input[type=file], .info-form input[type=button] {
+      background: #f0f0ff;
+      width: 230px;
+      height: 36px;
+      position: absolute;left: 1px;top: 1px;
+      font-size: 14px;
+      border: none;
+  }
+   .info-form input[type=submit]:hover,.info-form input[type=button]:hover{
+    background: #303E55;
+    color: white;
+    cursor: pointer;
+  }
+  .inactive-input{
+    border:1px solid #DCE4EC;
+    border-radius: 6px;
+  }
+    .inactive-input:focus {
+      box-shadow: 0 0 2px 1px #303e55; 
+    }
+  .error-input{
+    color: #E74C3C;
+    border: 1px solid #E74C3C;
+    border-radius: 6px;
+  }
+  .success-input{
+    color: #2ecc71;
+    border: 1px solid #2ecc71;
+    border-radius: 6px;
+  }
+  .disabled-input{
+  }
+  .username-logo{
+    width: 18px;
+    height: 18px;
+    position: absolute;left: 9px;top:9px;z-index: 6;
+    background: url("../image/username_g.png") no-repeat center;
+  }
+  .password-logo{
+    width: 18px;
+    height: 18px;
+    position: absolute;left: 9px;top:9px;z-index: 6;
+    background: url("../image/password_g.png") no-repeat center;
+  }
+  .email-logo{
+    width: 18px;
+    height: 18px;
+    position: absolute;left: 9px;top:9px;z-index: 6;
+    background: url("../image/email_g.png") no-repeat center;
+  }
+  .telephone-logo{
+    width: 18px;
+    height: 18px;
+    position: absolute;left: 9px;top:9px;z-index: 6;
+    background: url("../image/tele_g.png") no-repeat center;
+  }
+  .male-logo{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background: url("../image/male_g.png") no-repeat center;
+  }
+  .female-logo{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background: url("../image/female_g.png") no-repeat center;
+  }
+  .point-logo{
+    width: 18px;
+    height: 18px;
+    position: absolute;left: 9px;top: 9px;z-index: 6;
+    background: url("../image/point.png") no-repeat center;
+  }
+.title{
+  font-size: 20px;
+  font-weight: 700;
+}
+.content{
+  font-size: 16px;
+}
+.floor{
+  font-size: 14px;
+}
+.date{
+  font-size: 12px;
+}
+.date a{
+  color: #00cccc;
+}
+.date a:hover{
+  color: #00eeee;
+}
+.tag{
+  min-width: 30px;
+  max-width: 100px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  border: none;
+  background: #888888;
+  color: #EEEEEE;
+  display: inline-block;
+  cursor: pointer;
+  margin: 10px;
+}
+/*弹出表单*/
+.iframe-holder{
+  width: 100%;height: 100%;
+  background: rgba(0,0,0,0.8);
+  display:none;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+}
+.iframe-close{
+  background: url("../image/close.png") no-repeat center;
+  width: 20px;
+  height: 20px;
+  text-indent: -9999em;
+  border: 0;
+  position: absolute; right: 0;top: 0;
+  z-index: 10;
+  cursor: pointer;
+}
