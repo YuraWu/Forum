@@ -79,7 +79,7 @@ img{
 	.index-hotQuestionsList{
 		width: 840px;
 		font-size: 14px;
-		display: block;
+		display: none;
 		padding-bottom: 200px;
 	}
 		.index-questionItem{

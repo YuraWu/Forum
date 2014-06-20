@@ -40,6 +40,7 @@ header{
   #logo-Panel{
     width: 165px;
     height: 30px;
+    margin-top: 5px;
     display: inline-block;
     float: left;
   }
@@ -104,6 +105,7 @@ header{
   #search {
     width: 180px;
     height: 30px;
+    margin-top: 5px;
     display: inline-block;
     float: right;
   }
