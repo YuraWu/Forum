@@ -59,6 +59,9 @@
 							<?php echo $question_row['title'];?>
 						</a>
 					</div>
+					<div class='index-questionItem-content'>
+						<?php echo $question_row['content'];?>
+					</div>
 					<?php if(mysql_num_rows($question_tag)){ ?>
 						<div class="index-questionItem-tag">
 							<?php while($question_tag_row = mysql_fetch_array($question_tag)){ 
@@ -74,9 +77,6 @@
 						<a href = "personIndex.php?ID=<?php echo $author_ID;?>">
 							<?php echo $author_row['username']?>
 						</a>
-					</div>
-					<div class='index-questionItem-content'>
-						<?php echo $question_row['content'];?>
 					</div>
 					<div class='index-questionItem-evaluate'>
 						<input type="button" value="回答 <?php echo $question_cnt_row['answerCnt']?>">

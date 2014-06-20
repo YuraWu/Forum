@@ -83,29 +83,35 @@ img{
 		padding-bottom: 200px;
 	}
 		.index-questionItem{
-			width: 390px;
-			height: 280px;
-			margin: 20px 0 0 15px;
-			background: #EEE;
+			width: 800px;
+			height: 200px;
+			margin: 20px 0;
 			display: inline-block;
 			vertical-align:top;
 			position: relative;
+			overflow: scroll;
+			box-shadow: 1px 1px 5px #DDD;
+		}
+		.index-questionItem:hover{
+			box-shadow: 1px 1px 5px #ff4a56;
+
 		}
 		.index-questionItem a{
+			color: #ff4a56;
 			text-decoration: none;
 		}
 		.index-questionItem-title{
-			color: #333;
 			font-size: 17px;
-			width: 370px;
-			padding: 10px 20px 0;
-			max-height: 100px;
+			width: 700px;
+			height: 70px;
+			padding: 5px 20px 0;
 			overflow: auto;
+/* 			background-color: red; */
 		}
 		.index-questionItem-tag{
 			width: 370px;
-			height: 20px;
-			padding: 10px 20px 0;
+			height: 30px;
+/* 			background-color: blue; */
 		}
 			.tag{
 			    min-width: 30px;
@@ -114,37 +120,47 @@ img{
 			    line-height: 20px;
 			    text-align: center;
 			    border: none;
-			    background: #888888;
-			    color: #EEEEEE;
+			    background: #BBB;
+			    color: white;
 			    display: inline-block;
 			    cursor: pointer;
 			}
 		  .index-questionItem-date{
     		width: 370px;
-    		padding: 10px 20px 0;
-    		height: 20px;
+/*     		padding: 10px 20px 0; */
+			padding-left: 20px;
+    		height: 30px;
+    		display: inline-block;
     		line-height: 20px;
 	  		font-size: 12px;
-        color: #D9DDE2;
+	  		color: #555;
+/* 	  		background-color: yellow; */
 	  	}
 	  	.index-questionItem-content{
 	  		width: 370px;
-	  		height: 140px;
-	  		padding: 10px 20px 0;
+	  		height: 50px;
+	  		padding: 5px 20px 0;
 	  		overflow: hidden;
-        color: #d9dde3;
+	  		color: #333;
+/* 	  		background-color: green; */
 	  	}
 	  	.index-questionItem-evaluate{
-	  		width: 370px;
+	  		width: 250px;
 	  		height: 20px;
-	  		padding: 10px 20px 0;
+	  		padding: 5px;
+	  		display: inline-block;
+	  		position: absolute;
+	  		right: 20px;
 	  		line-height: 20px;
 	  	}
 	  	.index-questionItem-evaluate input{
 	  		border:none;
-        background: none;
+	  		background: none;
 	  		cursor: pointer;
-        color: #D9DDE2;
+	  		color: #666;
+	  	}
+	  	.index-questionItem-evaluate input:hover{
+		  	text-decoration: underline;
 	  	}
 .index-newQuestionsList{
 	width: 900px;
